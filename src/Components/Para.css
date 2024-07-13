@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Mono", sans-serif;
+    background-color: rgb(22, 181, 80);
+    background: linear-gradient(to left, rgb(146, 93, 102), rgb(160, 119, 211));
+    color: black;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+.section-center {
+    width: 90vw;
+    margin: 5rem auto;
+    max-width: 40rem;
+    text-align: center;
+}
+
+.section-center h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    margin-top: 30px;
+}
+
+.section-center form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+}
+
+.section-center form label {
+    font-size: 1.25rem;
+    color: black;
+}
+
+.section-center form input {
+    padding: 0.25rem 0.5rem;
+    width: 4rem;
+    border-radius: 0.25rem;
+    border: none;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+    color: black;
+    font-size: 1rem;
+    padding: 2rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+.section-center form button {
+    border: 2px solid rebeccapurple;
+    outline: none;
+    text-transform: uppercase;
+    background-color: rebeccapurple;
+    padding: 0.375rem 0.75rem;
+    letter-spacing: 1px;
+    font-size: 0.875rem;
+    color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+h1 {
+    animation: bounce 2s infinite;
+}
